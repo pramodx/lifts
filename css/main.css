@@ -88,10 +88,13 @@ td input[type=text] {
 button {
     width:100px;
 }
-select {
+select, .select {
     display: none
 }
-select.show {
+select {
+    float: left
+}
+select.show, .select.show {
     display: block
 }
 .dash {
